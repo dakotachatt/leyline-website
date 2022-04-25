@@ -1,0 +1,61 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    background-image: url("../images/general/landingBackground.png");
+    background-repeat: none;
+    background-size: cover;
+}
+
+body header {
+    margin: 1em 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body header .header-links a {
+    margin: 0 2.1875em;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #2E4159;
+}
+
+body header a:hover {
+    text-decoration: underline;
+}
+
+body header .header-account-button-container button {
+    font-family:  'Bebas Neue', cursive;
+    font-size: 1.25em;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    background-color: #2E4159;
+}
+
+body header button:hover {
+    color: #2E4159;
+    background-color: #FFFFFF;
+}
+
+.standard-button {
+    border-color: #2E4159;
+    border-radius: 30%/100%;
+    padding: 0.25em 1.5em;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.button-shadow {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
