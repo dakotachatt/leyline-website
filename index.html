@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/539487bb40.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -25,11 +26,42 @@
         </div>
         
         <div class="header-account-button-container">
-            <a href="#"><button id="header-account-button" class="button-shadow standard-button">SIGN-IN</button></a>
+            <button id="header-account-button" class="button-shadow standard-button">SIGN-IN</button>
         </div>
     </header>
     
-    <main></main>
+    <main>
+        <form id="landing-search-bar" action="#">
+            <div class="landing-search-item">
+                <label>
+                    <span>Destination</span>
+                    <input id="destination" type="text" placeholder="Calgary, AB">
+                </label>
+            </div>
+            <div class="landing-search-item">
+                <label>
+                    <span>Check In</span>
+                    <input id="check-in-date" type="date">
+                </label>
+            </div>
+            <div class="landing-search-item">
+                <label>
+                    <span>Check Out</span>
+                    <input id="check-out-date" type="date">
+                </label>
+            </div>
+            <div class="landing-search-item">
+                <label>
+                    <span>Guests</span>
+                    <input id="number-people" type="number" value="2">
+                </label>
+            </div>
+            <button class="landing-search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+
+        </form>
+
+        <div class="suggested-properties"></div>
+    </main>
     
     <footer></footer>
 </body>
